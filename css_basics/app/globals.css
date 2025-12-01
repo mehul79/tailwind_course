@@ -1,0 +1,59 @@
+/*@import "tailwindcss";*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.layout{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, white, #dbeafe, white);
+    overflow: hidden;
+}
+.navbar-root{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.link-items {
+    text-decoration: none;
+    color: #525252;
+    padding: 3px 0px;
+}
+
+.link-items:hover{
+    color: #27272a;
+    transition: color 0.2s ease-out;
+}
+
+.btn{
+    all: unset;
+    margin-left: 8px;
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 1px 8px 15px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
